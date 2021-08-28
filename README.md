@@ -1,4 +1,4 @@
-# BASE EFI AMD - Bulldozer (FX Processors)
+# BASE EFI AMD - Bulldozer (FX Processors) and A Series (including AM4 A-Series)
 
 Note|Description
 :----|:----
@@ -10,10 +10,10 @@ Initial macOS Support|macOS 10.13, High Sierra.
 # Basic Steps
 
 1. [Download](https://github.com/luchina-gabriel/BASE-EFI-AMD-BULLDOZER-FX-PROCESSORS/releases) the latest release;
-2. Includes additional kexts (for ethernet, audio, etc);
-3. Include the necessary ACPI patches (.aml);
+2. Includes **additional** kexts (for ethernet, audio, etc);
+3. Include the **necessary** ACPI patches (.aml);
 4. Review the special notes;
-5. Generate and complete your SMBIOS infos;
+5. Generate and complete your SMBIOS infos - **ALWAYS**;
 6. Adjust your BIOS;
 7. Install macOS and enjoy :)
 
@@ -197,3 +197,5 @@ nvda_drv_vrl=1|Used for enabling Nvidia's Web Drivers on Maxwell and Pascal card
 https://dortania.github.io/OpenCore-Install-Guide/AMD/fx.html
 <br>
 https://dortania.github.io/Getting-Started-With-ACPI/
+<br>
+https://github.com/AMD-OSX/AMD_Vanilla
