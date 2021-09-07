@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|macOS 10.13, High Sierra.
 
-- Opencore version: 0.7.2
-- Release date: 03/08/2021
+- Opencore version: 0.7.3
+- Release date: 06/09/2021
 
 # Basic Steps
 
@@ -150,10 +150,12 @@ See the table below for the values matching your CPU Core Count.
 
 | CoreCount | Hexadecimal|
 |--------|---------|
+|   4 Core  | `04` |
 |   6 Core  | `06` |
 |   8 Core  | `08` |
 |   12 Core | `0C` |
 |   16 Core | `10` |
+|   24 Core | `18` |
 |   32 Core | `20` |
 
 So for example a 6 Core 5600X Replace value would result in these replace values, `B8 06 0000 0000`/`BA 06 0000 0000`/`BA 06 0000 0090`
